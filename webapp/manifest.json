@@ -66,18 +66,18 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "at.clouddna.training06.zhoui5.i18n.i18n"
-        }
-      },
-      "": {
-        "dataSource": "mainService",
-        "preload": true,
-        "settings": {
-          "synchronizationMode": "None",
-          "operationMode": "Server",
-          "autoExpandSelect": true,
-          "earlyRequests": true
-        }
-      }
+      }},
+        "": {
+            "type": "sap.ui.model.json.JSONModel",
+            "uri": "data/customers.json"
+        },
+        "genderModel": {
+              "type": "sap.ui.model.json.JSONModel",
+              "uri": "data/genders.json"
+          }
+  
+      
+      
     },
     "resources": {
       "css": [
